@@ -1,9 +1,10 @@
-const Shapes = require('../lib/shapes.js');
+const Circle = require('../lib/shapes.js');
 
 describe('Shapes', () =>{
-  test('', () =>{
-    const shapes = new Shapes();
-    const err = new Error('Class must render a shape');
-    expect(shapes.render).toThrow(err)
+  test('Will output a shape', () =>{
+    const shapes = new Circle();
+    const svgOutput = 'circle'
+    //const err = new Error('Class must render a shape');
+    expect(shapes.render()).toEqual(svgOutput);
     });
 });
