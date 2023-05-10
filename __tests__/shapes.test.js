@@ -1,9 +1,9 @@
 const {Triangle, Circle, Square} = require('../lib/shapes.js');
 
 describe("Circle", () =>{
-  test.only("Will output a circle", () =>{
-    const shapes = new Circle("circle");
-    const svgOutput = 'circle'
-    expect(svgOutput).toEqual(shapes);
+  test("Will output a circle", () =>{
+    const shapes = new Circle("circle", "red");
+    const svgOutput = '<circle cx="150" cy="100" r="80" fill="red" />'
+    expect(svgOutput).toEqual(shapes.render());
     });
 });
