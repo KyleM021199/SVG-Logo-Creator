@@ -25,7 +25,7 @@
   ## Usage
   Use the git bash terminal and type node index.js. Then, answer all of the questions presented about your desired logo. Finally, this will print out logo in the form of a "logo.svg" file.
 
-  Demo Video: https://drive.google.com/file/d/12F4SWaZkcmRSxJGjXevIuDgHEKFx94X5/view
+  Demo Video: hhttps://drive.google.com/file/d/1zFXMCAls22_OcrEQYgPvIHoSFlrdL4BQ/view
 
   ## Contributing
   N/A
